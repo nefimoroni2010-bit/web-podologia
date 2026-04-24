@@ -1,0 +1,231 @@
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Body */
+body {
+    background-color: #e093c582;
+    color: #333;
+}
+ 
+/*Header */
+header {
+    background-color: #de8ec0b1;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #035775;
+    margin: 0;
+    text-align: center;
+}
+ .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 370px;
+}
+.logo-image {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #2a7f9e;
+}
+
+/*Hero*/
+.hero {
+    background:
+    linear-gradient(rgba(42,127,158,0.7,), rgba(42,127,158,0.7)),
+    url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5');
+    background-size: cover;
+    background-position: center;
+    color: #0d0d0d;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+}
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.hero a {
+   background-color: #25d366;
+   color: #fff;
+   text-decoration: none;
+   padding: 12px 25px;
+   border-radius: 5px;
+    font-weight: bold;
+}
+.hero a:hover {
+    background-color: #1ebe5d;
+}
+
+/*secciones generales*/
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+section h2 {
+    margin-bottom: 20px;
+    color: #2a7f9e;
+}
+
+/*servicios*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.cards div {
+   width: 280px;
+   flex: none;
+}
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px #2a7f9e double;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+.service-item h3 {
+    margin-bottom: 10px;
+    color: #2a7f9e;
+}
+.service-item p {
+    color: #555;
+}
+.service-item .destacado {
+    border: 2px solid #2a7f9e;
+    font-weight: bold;
+}
+/*Sobre nosotros*/
+.sobre {
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+/*Contacto*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/*Footer*/
+footer {
+    background-color: #2a7f9e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+a {
+  display: inline-block;
+    margin-top: 10px; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/*boton de whatsapp*/
+a[href^="https://wa.me/"] {
+    background-color: #25d366;
+    color: #fff;
+}
+/*boton de Instagram*/
+a[href^="https://www.instagram.com/"] {
+    background-color: #E1306C;
+    color: #fff;
+}
+.contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.caja-foto {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.image-pie {
+    max-width: 100px;
+    height: auto; 
+    display: block;
+}
+/*=================================*/
+/**********Version Movile**********/
+/*================================*/
+@media (max-width: 768px)
+ {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+    /*Hero en versión móvil*/
+    .hero {
+        padding: 50px 15px;
+    }
+    .hero h2 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    /*Servicios en columna*/
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards div {
+        width: 90%;
+        max-width: 300px;
+    }
+    /*selecciones mas compactas*/
+    section {
+        padding: 30px 15px;
+    }
+    /*textos mas pequeños*/
+    .sobre {
+        padding: 0 10px;
+    }
+}
+
