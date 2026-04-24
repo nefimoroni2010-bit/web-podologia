@@ -32,7 +32,7 @@ header h1 {
  .logo-container {
     display: flex;
     align-items: center;
-    gap: 370px;
+    gap: 20px;
 }
 .logo-image {
     width: 150px;
@@ -194,7 +194,11 @@ a[href^="https://www.instagram.com/"] {
         font-size: 1.8rem !important;
         text-align: center;
     }
-}
+    .logo-container {
+        gap: 10px !important;
+        flex-direction: column;
+        width: 100%;
+    }
  
     header {
         flex-direction: column;
@@ -237,4 +241,4 @@ a[href^="https://www.instagram.com/"] {
     .sobre {
         padding: 0 10px;
     }
-
+}
