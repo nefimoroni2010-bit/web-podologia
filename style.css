@@ -191,8 +191,8 @@ a[href^="https://www.instagram.com/"] {
 /*================================*/
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px !important;
-        word-wrap: break-word;
+        font-size: 1.8rem !important;
+        text-align: center;
     }
 }
  
@@ -201,11 +201,7 @@ a[href^="https://www.instagram.com/"] {
         align-items: center;
         text-align: center;
     }
-    h1 {
-        font-size: 24px;
-        width: 100%;
-        margin: 10px 0;
-    }
+    
     .logo-image {
         max-width: 150px;
         height: auto;
