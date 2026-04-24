@@ -241,15 +241,21 @@ a[href^="https://www.instagram.com/"] {
     .sobre {
         padding: 0 10px;
     }
-    .container {
+    section, .sobre, .contact, .hero {
         width: 100% !important;
         max-width: 100% !important;
-        padding: 0 20px !important;
+        padding: 20 10px !important;
         margin: 0 !important;
-        box-sizing: border-box;
+        box-sizing: border-box !important;
+        overflow:  hidden !important;
     }
-    section {
-        overflow: hidden;
-        width: 100%;
+    .logo-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
     }
-}
+
+    }
+
+
