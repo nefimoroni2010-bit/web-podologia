@@ -325,7 +325,7 @@ nav ul li a:hover {
         align-items: center;
     }
     .cards div {
-        width: 90%;
+        width: 100%;
         max-width: 300px;
     }
     /*selecciones mas compactas*/
