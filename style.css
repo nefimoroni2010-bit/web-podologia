@@ -127,47 +127,47 @@ section h2 {
 }
 /*Estilo para las imagenes de fondo en los servicios*/
 .corte {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/corte.jpg');
 }
 .uñas {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/uña-encarnada.jpg');
 }
 .callos {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/cayos.jpg');                     
 }
 .diabetico {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/pie-diabetico.png');
 }
 .domicilio {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/domicilio.png');
 }
 .helomas {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/heloma.jpg');
 }
 .atleta {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url(assets/image/pie-atleta.jpg);
 }
 .onicoplastia {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/onicoplastia.jpg');
 }
 .brackets {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/bracked.jpg');
 }
 .reflexologia {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                       url('assets/image/reflexologia.jpg')
 }
 .hidromasaje {
-                       background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                       background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5)),
                        url('assets/image/hidro.jpg')
 }
 .servicio-card {
@@ -176,7 +176,7 @@ section h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: auto;
     box-sizing: border-box;
     margin: 0;
     background-size: cover;
