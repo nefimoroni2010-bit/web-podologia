@@ -124,6 +124,62 @@ section h2 {
 .service-item p {
     color: #555;
 }
+/*Estilo para las imagenes de fondo en los servicios*/
+.corte {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/corte.jpg');
+}
+.uñas {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/uña-encarnada.jpg');
+}
+.callos {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/cayos.jpg');                     
+}
+.diabetico {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/pie-diabetico.png');
+}
+.domicilio {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/domicilio.png');
+}
+.helomas {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/helomas.jpg');
+}
+.atleta {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url(assets/image/pie-atleta.jpg);
+}
+.onicoplastia {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/onicoplastia.jpg');
+}
+.brackets {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/bracked.jpg');
+}
+.rteflexologia {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                      url('assets/image/reflexologia.jpg')
+}
+.hidromasaje {
+                       background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+                       url('assets/image/hidro.jpg')
+}
+.servicio-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    padding: 30px 15px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
 .service-item .destacado {
     border: 2px solid #2a7f9e;
     font-weight: bold;
